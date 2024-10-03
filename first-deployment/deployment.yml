@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: mvc-app
-        image: docker.io/rkb0124/myfirstwebapp:v1
+        image: docker.io/rkb0124/myfirstwebappimage:v1
         ports:
         - containerPort: 80
