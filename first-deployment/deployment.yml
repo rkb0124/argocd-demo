@@ -19,3 +19,8 @@ spec:
         image: docker.io/rkb0124/myfirstwebappimage:v2
         ports:
         - containerPort: 80
+        resources:
+          limits:
+            memory: "400Mi"
+          requests:
+            memory: "200Mi"
