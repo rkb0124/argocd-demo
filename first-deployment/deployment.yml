@@ -5,7 +5,7 @@ metadata:
   labels:
     app: my-first-web-app-label
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: my-first-web-app-label
